@@ -14,5 +14,8 @@ public class employeecontroller{
         return "welcome to my homepage";
     }
 
-
+@GetMapping("/add")
+public  String add(){
+return "add employee";
+}
 }
