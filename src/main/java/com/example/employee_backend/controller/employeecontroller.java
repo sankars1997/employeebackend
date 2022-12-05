@@ -18,4 +18,12 @@ public class employeecontroller{
 public  String add(){
 return "add employee";
 }
+
+@GetMapping("/view")
+public String view(){
+return "viewing employee";
+
+
+}
+
 }
