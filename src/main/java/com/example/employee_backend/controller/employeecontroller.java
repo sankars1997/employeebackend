@@ -30,5 +30,10 @@ return "viewing employee";
         return "search ";
 
 
+    } @GetMapping("/delete")
+    public String delete(){
+        return "delete";
+
+
     }
 }
