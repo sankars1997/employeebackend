@@ -25,5 +25,10 @@ return "viewing employee";
 
 
 }
+    @GetMapping("/search")
+    public String search(){
+        return "search ";
 
+
+    }
 }
