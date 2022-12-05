@@ -35,5 +35,10 @@ return "viewing employee";
         return "delete";
 
 
+    } @GetMapping("/edit")
+    public String edit(){
+        return "edit";
+
+
     }
 }
